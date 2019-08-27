@@ -1,0 +1,159 @@
+nav {
+  background-color: aqua;
+  height: 150px;
+}
+
+.main-articles {
+  background-color: black;
+  height: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ma-1 {
+  border: 2px solid white;
+  width: 662px;
+}
+.ma-2 {
+  border: 2px solid white;
+  width: 662px;
+}
+.ma-3 {
+  border: 2px solid white;
+  width: 662px;
+}
+.ma-4 {
+  border: 2px solid white;
+  width: 662px;
+}
+
+.first-articles{
+  background-color: purple;
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.a-1 {
+  border: 2px solid white;
+  width: 600px;    
+}
+
+.a-2 {
+  border: 2px solid white;
+  width: 600px;    
+}
+
+.a-3 {
+  border: 2px solid white;
+  width: 600px;    
+}
+
+.first-ad {
+  background-color: red;
+  height: 420px;
+  width: 620px;
+}
+
+.second-articles {
+  background-color: purple;
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.a-4 {
+  border: 2px solid white;
+  width: 600px;    
+}
+  
+.a-5 {
+  border: 2px solid white;
+  width: 600px;    
+}
+  
+.a-6 {
+  border: 2px solid white;
+  width: 600px;    
+}
+
+.article-ad {
+  display: flex;
+  justify-content: space-between;
+}
+.third-article {
+  background-color:purple;
+  height: 420px;
+  border: 2px solid white;
+  width: 600px;  
+}
+
+.second-ad {
+  background-color: red;
+  height: 420px;
+  width: 620px;
+}
+
+.green-area {
+  background-color: green;
+  height: 420px;
+}
+
+.main-person {
+  background-color: white;
+  height: 320px;
+}
+
+.people {
+  background-color: white;
+  height: 960px;
+}
+
+.futured-smashing-book {
+  background-color: darkorange;
+  height: 320px;
+}
+
+.first-guides {
+  display: flex;
+  background-color: brown;
+  height: 420px;
+}
+
+.guide-1 {
+ border: 2px solid white;
+ width: 600px;
+}
+
+.guide-2 {
+  border: 2px solid white;
+  width: 600px;
+}
+
+.guide-3 {
+  border: 2px solid white;
+  width: 600px;
+}
+
+.guide-ad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide-4 {
+  background-color: brown;
+  border: 2px solid white;
+  height: 420px;
+  width: 600px;
+}
+
+.third-ad {
+  background-color: red;
+  height: 420px;
+  width: 620px;
+}
+
+footer {
+  background-color: yellow;
+  height: 420px;
+}
