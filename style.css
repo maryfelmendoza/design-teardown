@@ -14,14 +14,17 @@ nav {
   border: 2px solid white;
   width: 662px;
 }
+
 .ma-2 {
   border: 2px solid white;
   width: 662px;
 }
+
 .ma-3 {
   border: 2px solid white;
   width: 662px;
 }
+
 .ma-4 {
   border: 2px solid white;
   width: 662px;
@@ -81,6 +84,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
 .third-article {
   background-color:purple;
   height: 420px;
