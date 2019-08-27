@@ -1,89 +1,76 @@
 nav {
-  background-color: aqua;
+  background-color: #8b8b8b;
   height: 150px;
 }
 
+span {
+  margin-left: 50%;
+  background-color: white;
+  font-size: 24px;
+}
 .main-articles {
-  background-color: black;
-  height: 1600px;
+  height: 1100px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .ma-1 {
+  background-color: #3c3c3c;
   border: 2px solid white;
-  width: 662px;
-}
-
-.ma-2 {
-  border: 2px solid white;
-  width: 662px;
-}
-
-.ma-3 {
-  border: 2px solid white;
-  width: 662px;
-}
-
-.ma-4 {
-  border: 2px solid white;
-  width: 662px;
+  width: 715px;
 }
 
 .first-articles{
-  background-color: purple;
-  height: 420px;
+  background-color: white;
   display: flex;
-  justify-content: space-between;
+  height: 420px;
+  justify-content: space-evenly;
 }
 
 .a-1 {
-  border: 2px solid white;
-  width: 600px;    
+  padding: 12px;   
+  width: 300px; 
 }
 
-.a-2 {
-  border: 2px solid white;
-  width: 600px;    
+.a-1 h1 {
+  background-color: gainsboro;
 }
 
-.a-3 {
-  border: 2px solid white;
-  width: 600px;    
+.a-1 p {
+  font-size: 24px;
 }
 
-.first-ad {
-  background-color: red;
-  height: 420px;
-  width: 620px;
+.ad-1 {
+  border: 1px solid #9f9f9f;
+  border-radius: 16px;
+  float: left;
+  height: 300px;
+  margin-left: 170px;
+  text-align: center;
+  width: 300px;
+}
+
+.promo {
+  background-color: #1f1f1f;
+  border-radius: 16px;
+  float: right;
+  height: 520px;
+  margin-right: 36px;
+  width: 788px;
 }
 
 .second-articles {
-  background-color: purple;
+  background-color:white;
   height: 420px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  clear: both;
 }
 
-.a-4 {
-  border: 2px solid white;
-  width: 600px;    
-}
-  
-.a-5 {
-  border: 2px solid white;
-  width: 600px;    
-}
-  
-.a-6 {
-  border: 2px solid white;
-  width: 600px;    
-}
-
-.article-ad {
+/* .article-ad {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .third-article {
   background-color:purple;
@@ -92,25 +79,50 @@ nav {
   width: 600px;  
 }
 
-.second-ad {
-  background-color: red;
-  height: 420px;
-  width: 620px;
+.more-articles {
+  background-color: rgb(241, 241, 241);
+  clear: both;
+  padding: 30px;
+  text-align: center;
 }
 
 .green-area {
-  background-color: green;
-  height: 420px;
+  clear: both;
+  background-color: #a1a1a1;
+  height: 470px;
+  text-align: center;
+  padding: 54px 224px 0 224px;
 }
 
 .main-person {
   background-color: white;
-  height: 320px;
+  float: right;
+  font-size: 21px;
+  height: 240px;
+  padding: 27px;
+  width: 1030px;
 }
 
 .people {
-  background-color: white;
-  height: 960px;
+  /* background-color: white; */
+  clear: both;
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.a-2 {
+  padding: 48px;
+  width: 420px;
+}
+
+.a-2 h1 {
+  font-size: 28px;
+}
+
+.a-2 p {
+  font-size: 24px;
 }
 
 .futured-smashing-book {
