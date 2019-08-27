@@ -89,9 +89,18 @@ span {
 .green-area {
   clear: both;
   background-color: #a1a1a1;
-  height: 470px;
+  height: 360px;
   text-align: center;
   padding: 54px 224px 0 224px;
+}
+
+.green-area h1 {
+font-size: 42px;
+}
+
+.green-area p {
+font-size: 36px;
+line-height: 2;
 }
 
 .main-person {
@@ -126,50 +135,34 @@ span {
 }
 
 .futured-smashing-book {
-  background-color: darkorange;
-  height: 320px;
+  clear: both;
+  background-color: #a1a1a1;
+  height: 470px;
+  text-align: center;
+  padding: 54px 224px 0 224px;
 }
 
 .first-guides {
   display: flex;
-  background-color: brown;
   height: 420px;
+  justify-content: space-evenly;
 }
 
 .guide-1 {
- border: 2px solid white;
- width: 600px;
-}
-
-.guide-2 {
-  border: 2px solid white;
-  width: 600px;
-}
-
-.guide-3 {
-  border: 2px solid white;
-  width: 600px;
+  background-color:white;
+  height: 420px;
+  width: 300px;
 }
 
 .guide-ad {
   display: flex;
-  justify-content: space-between;
-}
-
-.guide-4 {
-  background-color: brown;
-  border: 2px solid white;
-  height: 420px;
-  width: 600px;
-}
-
-.third-ad {
-  background-color: red;
-  height: 420px;
-  width: 620px;
+  justify-content: space-around;
 }
 
 footer {
-  background-color: yellow;
-  height: 420px;
+  clear: both;
+  background-color: #a1a1a1;
+  height: 470px;
+  text-align: center;
+  padding: 54px 224px 0 224px;
 }
