@@ -1,4 +1,4 @@
-body h1 {
+body h2 {
   font-family: "Patua", sans-serif; 
 }
 
@@ -41,7 +41,7 @@ span {
   width: 300px; 
 }
 
-.a-1 h1 {
+.a-1 h2 {
   background-color: gainsboro;
 }
 
@@ -98,7 +98,7 @@ span {
   text-align: center;
 }
 
-.green-area h1 {
+.green-area h2 {
   font-size: 24px;
 }
 
@@ -129,7 +129,7 @@ span {
   width: 420px;
 }
 
-.a-2 h1 {
+.a-2 h2 {
   font-size: 28px;
 }
 
@@ -145,7 +145,7 @@ span {
   text-align: center;
 }
 
-.futured-smashing-book h1 {
+.futured-smashing-book h2 {
   font-size: 24px;
 }
   
@@ -166,7 +166,7 @@ span {
   width: 300px;
 }
 
-.guide-1 h1 {
+.guide-1 h2 {
   font-size: 28px;
 }
 
