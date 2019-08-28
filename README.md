@@ -8,8 +8,6 @@ The goal for this exercise is to start training yourself to think in terms of vi
 * **Maryfel Mendoza** - *Initial work* - [maryfelmendoza](https://github.com/maryfelmendoza)
 * **Michael Zhu** - [zhuchini](https://github.com/zhuchini)
 
-See also the list of [contributors](https://github.com/maryfelmendoza/design-teardown/graphs/contributors) who participated in this project.
-
 ## Acknowledgments
 
 * Microverse
