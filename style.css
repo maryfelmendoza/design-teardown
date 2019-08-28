@@ -1,4 +1,4 @@
-body h1 {
+body h2 {
   font-family: "Patua", sans-serif; 
 }
 
@@ -8,17 +8,20 @@ body p {
 
 nav {
   background-color: #8b8b8b;
+  display: flex;
   height: 150px;
+  justify-content: space-around;
 }
 
 span {
-  margin-left: 50%;
   background-color: white;
   font-size: 24px;
+  margin-left: 50%;
 }
+
 .main-articles {
-  height: 1100px;
   display: flex;
+  height: 1100px;
   flex-wrap: wrap;
 }
 
@@ -40,7 +43,12 @@ span {
   width: 300px; 
 }
 
-.a-1 h1 {
+footer h2 {
+  color: black;
+  font-size: 24px;
+}
+
+.a-1 h2 {
   background-color: gainsboro;
 }
 
@@ -69,16 +77,11 @@ span {
 
 .second-articles {
   background-color:white;
-  height: 420px;
-  display: flex;
-  justify-content: space-evenly;
   clear: both;
-}
-
-/* .article-ad {
   display: flex;
-  justify-content: space-between;
-} */
+  height: 420px;
+  justify-content: space-evenly;
+}
 
 .third-article {
   background-color:purple;
@@ -95,20 +98,20 @@ span {
 }
 
 .green-area {
-  clear: both;
   background-color: #a1a1a1;
+  clear: both;
   height: 360px;
-  text-align: center;
   padding: 54px 224px 0 224px;
+  text-align: center;
 }
 
-.green-area h1 {
-font-size: 24px;
+.green-area h2 {
+  font-size: 24px;
 }
 
 .green-area p {
-font-size: 18px;
-line-height: 2;
+  font-size: 18px;
+  line-height: 2;
 }
 
 .main-person {
@@ -121,7 +124,6 @@ line-height: 2;
 }
 
 .people {
-  /* background-color: white; */
   clear: both;
   display: flex;
   width: 1060px;
@@ -134,7 +136,7 @@ line-height: 2;
   width: 420px;
 }
 
-.a-2 h1 {
+.a-2 h2 {
   font-size: 28px;
 }
 
@@ -143,14 +145,14 @@ line-height: 2;
 }
 
 .futured-smashing-book {
-  clear: both;
   background-color: #a1a1a1;
+  clear: both;
   height: 360px;
-  text-align: center;
   padding: 54px 224px 0 224px;
+  text-align: center;
 }
 
-.futured-smashing-book h1 {
+.futured-smashing-book h2 {
   font-size: 24px;
 }
   
@@ -171,7 +173,7 @@ line-height: 2;
   width: 300px;
 }
 
-.guide-1 h1 {
+.guide-1 h2 {
   font-size: 28px;
 }
 
@@ -188,15 +190,16 @@ footer {
   clear: both;
   background-color: #a1a1a1;
   height: 360px;
-  text-align: center;
   padding: 54px 224px 0 224px;
+  text-align: center;
 }
 
-footer h1 {
-  font-size: 24px;
+footer a {
+  color: black;
 }
-  
+
 footer p {
+  color: black;
   font-size: 18px;
   line-height: 2;
 }
